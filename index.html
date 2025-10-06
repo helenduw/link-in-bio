@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Helen's Links</title>
 
     <style>
@@ -10,11 +12,27 @@
         border: 1px red dashed;
       }
 
+      html{
+        min-height: 100%;
+      }
+
       body{
+        min-height: 100%;
         padding-top: 40px;
         padding-bottom: 40px;
+        background: linear-gradient(90deg, #0f095b, #122375, #123c8f, #1255a8, #156ebf, #1f89d6, #2da4eb, #40bfff);
+        color: rgba(255, 255, 255, 1.0);
       }
-      
+
+      a{
+        color: rgba(255, 255, 255, 1.0);
+      }
+
+      .maincontainer{
+        max-width: 640px;
+        margin: auto;
+      }
+
       .avatar-image {
         width: 128px;
         height: 128px;
@@ -27,6 +45,27 @@
         height: 48px;
         border-radius: 48px;
         object-fit: cover;
+
+      .image-row {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .name-row{
+        margin-bottom: 30px;
+        text-align: center;
+      }
+
+      .social-icons-row {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+      } 
+
+      .item{
+        background-color: rgba(149, 123, 173, 0.5);
+        margin-bottom: 20px;
+      }
       }
     </style>
   </head>
