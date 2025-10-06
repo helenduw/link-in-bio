@@ -9,12 +9,31 @@
       *{
         border: 1px red dashed;
       }
+
+      body{
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+      
+      .avatar-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
     </style>
   </head>
   <body>
     <div class="main-container">
       <div class="image-row">
-        <img src="/profile-pic.jpg" alt="Helen Du headshot">
+        <img class="avatar-image" src="/profile-pic.JPG" alt="Helen Du headshot">
       </div>
 
       <div class="name-row">
@@ -38,13 +57,13 @@
 
       <div class="links-row">
         <div class="item">
-          <img src="/stock-news.jpg">
+          <img class="thumbnail" src="/stock-news.jpg">
 
           <a href="https://www.wsj.com/finance/investing/stock-funds-10-percent-2025-02687091?mod=finance_lead_story" target="/blank">
             Stock news
           </a>
 
-          <img src="/scuba-diving.jpg">
+          <img class="thumbnail" src="/scuba-diving.jpg">
 
           <a href="https://blog.padi.com/what-is-scuba-diving/" target="/blank">
             Scuba Diving
